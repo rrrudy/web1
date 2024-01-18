@@ -1,0 +1,50 @@
+{% extends './base.html' %}
+{% block body %}
+<style>
+.link { color: #1f1e1e; } /* CSS link color (red) */
+.link:hover { color: #FF0000; } /* CSS link hover (green) */
+  </style>
+  <br>
+  <br>
+  <!--fin de menu-->
+<div class="row">
+  <div class="col-lg-12 mt-5 ">
+    <H2 class="text-center " style="font-size:calc(.9em + .8vw) " ><b>REPOSITORIO DE TESIS</b></H2>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 mt-5 ">
+            <h2 class="font-weight-normal" style="font-size:calc(.9em + .8vw)">BUSCAR POR REPOSITORIO</h2>
+            
+            <div class="form-group">
+                <label for="email">Escriba la palabra Clave:</label>
+                <input type="email" class="form-control" id="email">
+             </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 mt-2 ">
+            <a href="" class="btn btn-primary btn-lg active" role="button"style="width: 50%;">Buscar</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 mt-5 ">
+            <h2 class="mb-4 font-weight-normal  " style="font-size:calc(.9em + .8vw)">RESULTADO DE LA BÚSQUEDA</h2>
+            <h5 class="ml-4  link font-weight-normal" >Repositorio Institucional</h5>
+            <br>
+            <h5 class="ml-4  link font-weight-normal">Programación Grados y Títulos</h5>
+            <br>
+            <h5 class="ml-4   link font-weight-normal">ESFA - PUNO Repositorios Digitales</h5>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
+   
+    
